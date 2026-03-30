@@ -1,6 +1,6 @@
 import os
 from cryptography.fernet import Fernet
-
+#file
 files = []
 for file in os.listdir():
     if file in ["encrypt.py", "decrypt.py", "flage.key"]:
